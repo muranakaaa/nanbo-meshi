@@ -44,7 +44,17 @@ function App() {
 
   return (
     <div className="App">
-      <h1>🍚 なんぼめし</h1>
+      <h1 style={{ textAlign: 'center', marginBottom: '1rem' }}>
+        <img 
+          src="/nanbo-meshi_logo.webp" 
+          alt="なんぼめし - ごはん1杯の値段計算サイト"
+          style={{ 
+            maxWidth: '100%', 
+            height: 'auto',
+            maxHeight: '150px'
+          }}
+        />
+      </h1>
       <p>お米の価格と量を入力すると、ごはん1杯の値段を計算できるサイトです。</p>
       
       <div style={{
