@@ -53,10 +53,11 @@ h1 {
   text-align: left;
 }
 
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
+.form-group h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
   font-weight: 600;
+  color: #2d3748;
 }
 
 .form-group input {

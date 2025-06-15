@@ -73,7 +73,7 @@ function App() {
 
       <div className="card">
         <div className="form-group">
-          <label htmlFor="riceWeight">お米の重量（kg）</label>
+          <h2>お米の重量（kg）</h2>
           <input
             id="riceWeight"
             type="number"
@@ -86,7 +86,7 @@ function App() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="ricePrice">お米の価格（円）</label>
+          <h2>お米の価格（円）</h2>
           <input
             id="ricePrice"
             type="number"
@@ -99,7 +99,7 @@ function App() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="bowlWeight">お茶碗1杯の重量（g）</label>
+          <h2>お茶碗1杯の重量（g）</h2>
           <input
             id="bowlWeight"
             type="number"
