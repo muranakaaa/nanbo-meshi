@@ -39,7 +39,7 @@ function App() {
   const shareToTwitter = () => {
     if (pricePerMeal !== null) {
       const text = `なんぼめしで計算したら、お茶碗1杯のお米は${pricePerMeal}円でした！全部で${totalBowls}杯分です。 #なんぼめし`
-      const url = 'https://nanbo-meshi.example.com'
+      const url = 'https://nanbo-meshi.com'
       const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
       window.open(twitterUrl, '_blank')
     }
