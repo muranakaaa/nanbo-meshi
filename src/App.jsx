@@ -68,7 +68,7 @@ function App() {
           fontWeight: 'bold'
         }}>
           おしらせ
-        </span> 計算の処理速度を向上しました👍 2025年6月15日
+        </span> サイトデザインをリニューアルしました👍 2025年6月15日
       </div>
 
       <div className="card">
