@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <h1>🍚 なんぼめし</h1>
-      <p>お米の価格から一食あたりの価格を計算できるサイトです。</p>
+      <p>お米の価格と量を入力すると、ごはん1杯の値段を計算できるサイトです。</p>
       
       <div style={{
         backgroundColor: '#E2E3E5',
