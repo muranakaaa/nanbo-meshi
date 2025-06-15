@@ -17,10 +17,7 @@ function App() {
       const cookedRiceG = weightKg * 2.2 * 1000
       const bowlsRaw = cookedRiceG / bowlG
       const bowlsRounded = Math.round(bowlsRaw)
-      console.log(price)
-      console.log(bowlsRaw)
       const priceRaw = price / bowlsRaw
-      console.log(priceRaw)
       const priceRounded = Math.round(priceRaw)
 
       setPricePerMeal(priceRounded)
