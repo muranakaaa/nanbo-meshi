@@ -36,12 +36,12 @@ function App() {
     setTotalBowls(null)
   }
 
-  const shareToTwitter = () => {
+  const postToSocial = () => {
     if (pricePerMeal !== null) {
       const text = `なんぼめしで計算したら、お茶碗1杯のお米は${pricePerMeal}円でした！全部で${totalBowls}杯分です。 #なんぼめし`
       const url = 'https://nanbo-meshi.com'
-      const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
-      window.open(twitterUrl, '_blank')
+      const shareUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
+      window.open(shareUrl, '_blank')
     }
   }
 
@@ -140,7 +140,7 @@ function App() {
               杯数 = ({riceWeight}kg × 1000g × 2.2) ÷ {bowlWeight}g = {Math.round((parseFloat(riceWeight) * 1000 * 2.2) / parseFloat(bowlWeight))}杯<br />
               1杯当たり = {ricePrice}円 ÷ 杯数 = {pricePerMeal}円
             </div>
-            <button className="share-button" onClick={shareToTwitter}>
+            <button className="post-button" onClick={postToSocial}>
               🐦 Twitterでシェア
             </button>
             <div style={{
